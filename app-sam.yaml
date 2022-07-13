@@ -41,8 +41,8 @@ Globals:
       SecurityGroupIds:
         - sg-0d50229f878c8aa1f
       SubnetIds:
-        - subnet-7f039471
-        - subnet-88d0bdc5          
+        - subnet-0153278fbc3e57e5c
+        - subnet-0f353080f3a326454          
                 
 Resources:
   ListInstitutionsFunction:
