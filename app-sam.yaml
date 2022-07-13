@@ -51,7 +51,7 @@ Resources:
       FunctionName: ListInstitutions
       Handler: com.hcl.adi.chf.lambda.ListInstitutions
       Role: 
-        Fn::ImportValue: AdiBasicRoleForLambdasUAT
+        Fn::ImportValue: ServerlessLambdaDemoRole
       CodeUri: target/adi_module-1.0.0.jar
       Description: This lambda function will return the list of institutions  
 #      Environment: 
@@ -71,7 +71,7 @@ Resources:
       FunctionName: ListInstitutionAdmins 
       Handler: com.hcl.adi.chf.lambda.ListInstitutionAdmins
       Role: 
-        Fn::ImportValue: AdiBasicRoleForLambdasUAT
+        Fn::ImportValue: ServerlessLambdaDemoRole
       CodeUri: target/adi_module-1.0.0.jar
       Description: This lambda function will return the list of institution admins   
 #      Environment: 
